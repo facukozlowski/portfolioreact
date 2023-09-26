@@ -1,16 +1,16 @@
-import Layout from '../components/Layout'
-import Link from 'next/link'
+import Layout from "../components/Layout";
+import Link from "next/link";
 
 const custom404 = () => (
-    <Layout footer = {false}>
-        <div className='text-center'>
-        <h1>404</h1>
-        <p>Esta página no existe, retorna al <Link href='/'>
-             Home
-        </Link>
-        </p>
-        </div>
-    </Layout>
-)
+  <Layout>
+    <div className="text-center pt-5">
+      <h1>404</h1>
+      <p>
+        This page does not exists. Please return to
+        <Link href="/">Home</Link>
+      </p>
+    </div>
+  </Layout>
+);
 
 export default custom404;

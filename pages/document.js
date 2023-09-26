@@ -1,17 +1,23 @@
-import { Html, Main, NextScript } from 'next/document'
+import { Html, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
     <Html>
-        <Head>
-          <title>my portfolio</title>  
-          <meta name='description' content='Ryan Ray portfolio website'/>
-          <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.css'/>
-        </Head>
+      <Head>
+        <title>My portfolio</title>
+        <meta
+          name="description"
+          content="Facundo Kozlowski portfolio website"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.css"
+        />
+      </Head>
       <body>
         <Main />
         <NextScript />
       </body>
     </Html>
-  )
+  );
 }
